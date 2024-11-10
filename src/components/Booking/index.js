@@ -119,8 +119,6 @@ class Booking extends Component{
             }}
        </BookingContext.Consumer>
     )
-    
-
 
     render(){
         const {clickOnPayment} = this.state
@@ -129,7 +127,7 @@ class Booking extends Component{
             <Header/>
             {this.submitUserDetailsAndPayment()}
             <BookingFooter/>
-            {clickOnPayment && <Navigate to="/confirmation" state={clickOnPayment} replace={true} />}
+            {clickOnPayment && <Navigate to="https://marketesq-io-assignment-gamma.vercel.app/confirmation" state={clickOnPayment} replace={true} />}
         </div>
         )
     }
