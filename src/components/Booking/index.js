@@ -127,7 +127,7 @@ class Booking extends Component{
             <Header/>
             {this.submitUserDetailsAndPayment()}
             <BookingFooter/>
-            {clickOnPayment && <Navigate to="https://marketesq-io-assignment-gamma.vercel.app/confirmation" state={clickOnPayment} replace={true} />}
+            {clickOnPayment && <Navigate to="/confirmation" state={clickOnPayment} replace={true} />}
         </div>
         )
     }
