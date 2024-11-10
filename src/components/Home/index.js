@@ -102,7 +102,7 @@ class Home extends Component{
     <div className="discover-home-container"><Discover/></div>
       <Services/>
     <Footer/>
-    {clickOnSubmit && <Navigate to="https://marketesq-io-assignment-gamma.vercel.app/booking" state={clickOnSubmit} replace={true} />}
+    {clickOnSubmit && <Navigate to="/booking" state={clickOnSubmit} replace={true} />}
   </div>
 )
   }
