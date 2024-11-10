@@ -1,0 +1,30 @@
+.footer-container {
+    background-color: rgba(227, 232, 238, 0.954);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inside-container {
+    padding: 20px 30px;
+}
+.terms-policy-refund-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    line-height: 1px;
+}
+.brisphere-title {
+    font-weight: 700;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+.location-button {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(11, 70, 130);
+}

@@ -1,0 +1,30 @@
+.services-image {
+    width: 70px;
+    height: 70px;
+}
+.service-item {
+    border: 1px solid #fafafa;
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 16px 0px #fafaface;
+    background-color: #f8f6f6f6;
+}
+service-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.description {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}

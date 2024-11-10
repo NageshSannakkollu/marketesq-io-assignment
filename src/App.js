@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import { Component } from "react"
+import BookingContext from "./context/BookingContext"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+import Home from "./components/Home"
+import Booking from "./components/Booking"
+import OrderConfirm from "./components/OrderConfirm"
+import "./App.css"
+
+class App extends Component{
+  state = {bookingList:[],userDetailsList:[]}
+
+  addToBookingList = booking => {
+    this.setState({bookingList:booking})
+  }
+
+  addToUserDetails = user => {
+    this.setState({userDetailsList:user})
+  }
+
+  render(){
+    const {bookingList,userDetailsList} = this.state
+    return (
+      <BookingContext.Provider 
+        value={{
+          bookingList,
+          userDetailsList,
+          addToBookingList:this.addToBookingList,
+          addToUserDetails:this.addToUserDetails
+        }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <BrowserRouter>
+          <Routes>
+              <Route exact path="/" element={<Home/>}/>
+              <Route exact path="/booking" element={<Booking/>}/>
+              <Route exact path="/confirmation" element={<OrderConfirm/>}/>
+        </Routes>
+      </BrowserRouter>
+    </BookingContext.Provider>
+    )
+  }
 }
 
-export default App;
+
+export default App

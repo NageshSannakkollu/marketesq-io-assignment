@@ -1,0 +1,10 @@
+.services-title {
+    text-align: center;
+    font-weight: 400;
+}
+.service-un-order-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

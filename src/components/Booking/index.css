@@ -1,0 +1,131 @@
+.bookings-main-container {
+    height: 100vh;
+}
+
+.form-main-container {
+    padding: 5px 30px;
+}
+
+.booking-form-container{
+    background-color: #716c6c34;
+    padding: 20px 30px;
+    height: 180px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+}
+.username-email-container {
+    display: flex;
+}
+
+.contact-persons-container {
+    display: flex;
+    align-items: center;
+}
+.input-form {
+    width: 50%;
+    margin-right: 10px;
+    height: 30px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    border: 1px solid #b2aeae;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+.adults-child-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.adults-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    background-color: #fafafa;
+    border: 1px solid #b2aeae;
+    width: 40%;
+}
+.child {
+    width: 30%;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+
+}
+.confirmation-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 16px 0px #717070;
+    background-color: #fafafa;
+    padding: 0px 40px;
+}
+.horizon-line {
+    width: 1px;
+    height: 50px;
+    color: #000;
+    background-color: #000;
+}
+.room-details-container {
+    display: flex;
+    align-items: center;
+}
+.rooms-increase-decrease-button {
+    background-color: transparent;
+    border-radius: 50%;
+}
+.confirm-button {
+    margin-left: 20px;
+    height: 38px;
+    padding: 0px 15px;
+    background-color: rgb(19, 119, 219);
+    color: #fafafa;
+    border: 0px;
+}
+.arrow-image-container {
+    background-color: #072c85;
+    border: 0px;
+}
+.arrow-image {
+    background-color: #072c85;  
+    width: 30px;
+    height: 33px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+.arrow-button-container {
+    display: flex;
+    align-items: center;
+}
+.click-payment-confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.5px;
+}
+.pay-amount-desc {
+    font-weight: 700;
+    font-size: 8px;
+    margin-top: 2px;
+    padding-top: 2px;
+}
+.phone-number {
+    width: 43%;
+}
+@media screen and (min-width:768px){
+    .phone-number{
+        width: 46%;
+    }
+}

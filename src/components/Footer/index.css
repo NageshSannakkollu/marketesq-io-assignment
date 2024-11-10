@@ -1,0 +1,23 @@
+.footer-container {
+    background-color: rgba(227, 232, 238, 0.954);
+}
+.footer-inside-container {
+    padding: 20px 30px;
+}
+
+.brisphere-title {
+    font-weight: 700;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+.location-button {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(11, 70, 130);
+}

@@ -1,0 +1,40 @@
+.order-user-confirm-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-details-container {
+    width: 50%;
+    line-height: 2px;
+}
+.contact-us {
+    text-decoration: none;
+}
+.success-image {
+    height: 90px;
+    width: 90px;
+    margin-right: 20px;
+}
+.success-order-payment-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-complete-contact-container {
+    line-height: 10px;
+}
+.order-confirm-page {
+    margin-top: 50px;
+}
+.rooms {
+    margin-left: 10px;
+}
+.total-amount {
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 30px;
+    background-color: rgb(19, 119, 219);
+    color: #fafafa;
+    margin-left: 20px;
+
+}
